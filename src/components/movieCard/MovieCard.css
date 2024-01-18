@@ -1,0 +1,37 @@
+.movieBox {
+	margin: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 0;
+}
+
+img {
+	width: 280px;
+	height: 400px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px white;
+}
+
+h1 {
+	color: white;
+	margin-top: 100px;
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+h1:hover {
+	box-shadow: 5px 5px 5px white;
+}
+
+p {
+	color: white;
+	width: 100px;
+	height: 30px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+}
